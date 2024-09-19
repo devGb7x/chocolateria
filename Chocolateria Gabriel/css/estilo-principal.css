@@ -1,0 +1,95 @@
+* {
+    margin: 0%;
+}
+
+body {
+    background-color: #dccfad;
+
+}
+
+
+.logotipo-topo {
+    width: 220px;
+}
+
+
+header {
+    width: 100%;
+    background-color: #dccfad;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
+    padding: 10px;
+}
+
+.topo-conteudo {
+    width: 1200px;
+    height: 120px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    padding: 44px 0 46px 0;
+}
+
+.menu {
+    list-style: none;
+    width: 360px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0 10px 0;
+}
+
+.menu a {
+    font-family: Alice;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    text-decoration: none;
+    color: black;
+    padding: 0 10px 10px 10px;
+}
+
+.menu a:hover {
+    padding-top: 25px;
+    padding-bottom: 10px;
+    color: #a38641;
+}
+
+   
+
+footer {
+    padding: 20px 0 20px 0;
+    background-color: #645441
+}
+
+.texto-rodape {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #e1cd86;
+    margin: 0%;
+}
+
+.midiasSociais{
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    padding-bottom: 20px;
+    align-items: end;
+    column-gap: 10px;
+}
+
+.copyright{
+    padding: 10px 0 10px 0;
+    text-align: center;
+    background-color: #dccfad;
+    color: #ffffff;
+    font-family: 'Dosis', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}

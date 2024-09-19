@@ -1,0 +1,41 @@
+.title-sobre{
+    padding-top: 35px;
+    padding-left: 40px;
+    font-family: Roboto Slab;
+    font-size: 35px;
+    font-style: normal;
+    text-align: center;
+}
+
+main{
+    width: 80%;
+    margin: auto;
+}
+
+.boxes{
+    display: flex;
+    padding: 40px;  
+    justify-content: space-around;
+    padding-top: 40px;
+}
+
+.boxes div{
+    width: 530px;
+}
+
+.boxes img{
+    width: 500px;
+    height: 400px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+
+}
+
+.text-sobre{
+    padding: 0 60px 50px 60px;
+    font-family: Roboto slab;
+    font-style: normal;
+    font-size: larger;
+    font-weight: 300;
+}
+
+
